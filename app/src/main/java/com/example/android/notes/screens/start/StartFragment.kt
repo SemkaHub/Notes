@@ -11,7 +11,7 @@ import com.example.android.notes.utilits.TYPE_ROOM
 
 class StartFragment : Fragment() {
 
-    lateinit var mViewModel: StartFragmentViewModel
+    private lateinit var mViewModel: StartFragmentViewModel
 
     private var _binding: FragmentStartBinding? = null
     private val mBinding get() = _binding!!
